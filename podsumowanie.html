@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="podsumowanie.css">
+    <script src="podsumowanie.js" defer></script>
+</head>
+<body>
+    <header><h1>Dziennik Praktyk Zawodowych</h1></header>
+    <section>
+        <button id="sprawozdanie"><a href="sprawozdanie.html">Sprawozdanie</a></button>
+        <button id="home"><a href="strona glowna.html">Strona Główna</a></button>
+        <button id="podsumowanie"><a href="podsumowanie.html">Podsumowanie</a></button>
+    </section>
+    <main>
+    <form>
+        <fieldset>
+            <legend>Ocena ucznia</legend>
+        <label for="opis">Opis pracy ucznia oraz zrealizowanego prze niego materiału:<input type="text" id="opis"/></label>
+        <label for="ocena">Ocena
+            <select id="ocena">
+                <option value="ndst">Ndst</option>
+                <option value="dst">Dst</option>
+                <option value="dop">Dop</option>
+                <option value="db">Db</option>
+                <option value="bdb">Bdb</option>
+                <option value="cel">Cel</option>
+            </select>
+        </label>
+    </fieldset>
+
+    <button id="submit">Przeslij</button>
+    </form>
+    <div id="display"></div>
+    </main>
+</body>
+</html>

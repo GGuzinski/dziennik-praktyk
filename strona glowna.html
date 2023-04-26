@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="strons glowna.css">
+    <script src="strona glowna.js" defer></script>
+    
+</head>
+<body>
+<header><h1>Dziennik Praktyk Zawodowych</h1></header>
+<section>
+    <button id="sprawozdanie"><a href="sprawozdanie.html">Sprawozdanie</a></button>
+    <button id="home"><a href="strona glowna.html">Strona Główna</a></button>
+    <button id="podsumowanie"><a href="podsumowanie.html">Podsumowanie</a></button>
+</section>
+    <main>
+    <form  action="0" id="form">
+       
+        <label for="imie"> Imię 
+            <input type="text" id="imie"> 
+        </label> 
+        <label for="nazwisko"> Nazwisko
+            <input type="text" id="nazwisko"> 
+        </label> 
+        <label for="klasa"> Klasa
+            <select id="klasa">
+                <option value="3i">3i</option>
+                <option value="4i">4i</option>
+                <option value="3ei">3ei</option>
+                <option value="4ei">4ei</option>
+                <option value="3p">3p</option>
+                <option value="4p">4p</option>
+                </select>
+        </label> 
+         <label  for="rok szkolny"> Rok szkolny
+            <input type="text" id="rok szkolny">
+        </label>
+         <label for="firma"> Firma w której odbyto praktyki
+             <input type="text" id="firma">
+         </label>
+         <fieldset id="praktyki-czas">
+             <legend>Czas trwania praktyk</legend>
+         <label for="data rozpoczencia"> Data rozpoczęcia
+             <input type="date" id="data rozpoczencia">
+         </label for="data zakonczenia">
+         <label> Data zakończenia
+            <input type="date" id="data zakonczenia">
+         </label>
+        </fieldset>
+        <input type="submit" value="Przeslij" />
+      
+        </form>
+        
+        </main>
+        
+        <div id="display">
+            
+        </div>
+        
+       
+
+</body>
+</html>
